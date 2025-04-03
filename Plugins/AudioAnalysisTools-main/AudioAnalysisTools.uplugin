@@ -1,0 +1,31 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Audio Analysis Tools",
+  "Description": "Audio Analysis Tools plugin for Unreal Engine. Provides a variety of functions for analyzing audio data. Works in conjunction with the Runtime Audio Importer plugin.",
+  "Category": "Audio",
+  "CreatedBy": "Georgy Treshchev",
+  "CreatedByURL": "https://georgy.dev/",
+  "DocsURL": "https://docs.georgy.dev/audio-analysis-tools/overview",
+  "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/54f6567f89184beb9203f6211c791175",
+  "SupportURL": "https://georgy.dev/",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AudioAnalysisTools",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "RuntimeAudioImporter",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Language: Cpp
+BasedOnStyle: Microsoft
+UseTab: Never
+SortIncludes: false
+AllowShortFunctionsOnASingleLine: Inline
+BreakBeforeBraces: Allman
+IndentWidth: '4'
+TabWidth: '6'
+AccessModifierOffset: '-4'
+PointerAlignment: Left
